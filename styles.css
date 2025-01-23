@@ -1,0 +1,319 @@
+@import url('https://fonts.googleapis.com/css2?family=Days+One&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.index-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2em; 
+    background-color: #FFFAE5;
+    gap: 2em;
+  }
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 5em;
+    padding: 0%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+ul a {
+    text-decoration: none; 
+    font-family: "Days One", serif;
+    font-size: 2.5em;
+}
+
+nav ul li:nth-of-type(1) a {
+    color: #CD2A3C; 
+}
+
+nav ul li:nth-of-type(3) a {
+    color: #234BA3;
+}
+
+a.active {
+    text-decoration: underline;
+}
+
+.index-body header div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.index-body header div p{
+    max-width: 75%;
+    max-height: 30%;
+    font-size: 1.5em;
+    color: white;
+}
+
+.index-body main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0em 2em 0em 2em;
+    background-color: #FFFAE5;
+    gap: 3em;
+}
+
+.index-body main section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.index-body main section:nth-of-type(1) div{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.index-body main section:nth-of-type(1) h2{
+    color: #CD2A3C;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+}
+
+.index-body main section:nth-of-type(1) p{
+    font-size: 1.5em;
+    font-family: "Geologica", serif;
+}
+
+.index-body main section:nth-of-type(2) p{
+    font-size: 1.5em;
+    font-family: "Geologica", serif;
+    padding-bottom: 2em;
+}
+
+.index-body main section:nth-of-type(2) h2{
+    color: #234BA3;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+}
+
+.index-body main section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.index-body main section:nth-of-type(2) div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-body footer {
+    background-color: #234BA3;
+    border-radius: 0.625em;
+    padding: 1em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.index-body footer section {
+    display: flex;
+    gap: 4em;
+}
+
+.index-body footer img {
+    padding: 1em;
+    border-radius: 1.25em;
+    margin-bottom: 0;
+}
+
+.initiatief-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2em; 
+    background-color: #FFFAE5;
+    gap: 2em;
+}
+
+.initiatief-body main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0em 2em 0em 2em;
+    background-color: #FFFAE5;
+    gap: 3em;
+}
+
+.initiatief-body main section:nth-of-type(1){
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.initiatief-body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.initiatief-body main section:nth-of-type(1) div{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.initiatief-body main section:nth-of-type(1) h2{
+    color: #234BA3;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+}
+
+.initiatief-body main section:nth-of-type(1) p{
+    font-size: 1.6em;
+    font-family: "Geologica", serif;
+}
+
+.initiatief-body main section:nth-of-type(2) div{
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+}
+
+.initiatief-body main section:nth-of-type(2){
+    display: flex;
+    flex-direction: column;
+    gap: 3em;
+}
+
+.initiatief-body main section:nth-of-type(2) p{
+    font-size: 1.6em;
+    font-family: "Geologica", serif;
+    padding-bottom: 2em;
+}
+
+.initiatief-body main section:nth-of-type(2) h2{
+    color: #CD2A3C;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+}
+
+footer {
+    background-color: #234BA3;
+    border-radius: 1.25em;
+    padding: 1.5em;
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    display: flex;
+    gap: 10em;
+}
+
+footer img {
+    padding: 1em;
+    border-radius: 1.25em;
+}
+
+.locaties-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    padding: 2em; 
+    background-color: #FFFAE5;
+    gap: 2em;
+}
+
+.locaties-body header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locaties-body iframe{
+    border-radius: 1.25em;
+}
+
+.locaties-body main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.locaties-body main section:nth-of-type(1) iframe {
+    border: 0.5em solid #234BA3;
+}
+
+.locaties-body main section:nth-of-type(2) iframe {
+    border: 0.5em solid #CD2A3C;
+}
+
+.locaties-body main section:nth-of-type(3) iframe {
+    border: 0.5em solid #234BA3;
+}
+
+.locaties-body main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locaties-body main section:nth-of-type(1) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locaties-body main section:nth-of-type(1) h2 {
+    color: #CD2A3C;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+    padding: 0.5em;
+    text-align: center;
+}
+
+.locaties-body main section:nth-of-type(2) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.locaties-body main section:nth-of-type(2) h2 {
+    color: #234BA3;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+    padding: 0.5em;
+    text-align: center;
+    padding-top: 1.5em;
+}
+
+.locaties-body main section:nth-of-type(3) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-bottom: 3em;
+}
+
+.locaties-body main section:nth-of-type(3) h2 {
+    color: #CD2A3C;
+    font-size: 3.5em;
+    font-family: "Days One", serif;
+    padding: 0.5em;
+    text-align: center;
+    padding-top: 1.5em;
+}
